@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Portfolio = () => {
@@ -10,7 +11,14 @@ const Portfolio = () => {
       {/* card 1 */}
       <div className=
       'space-x-20 mt-10 px-5 text-white shadow-md shadow-gray-600 h-60 hover:scale-105 duration-75'>
-        <img src='/images/1.jpg' alt='1' className='w-screen h-60'></img>
+        <Image 
+         src="/images/1.jpg"
+         alt="1"
+         height={600}
+         width="400"
+        />
+        {/* <img 
+        src='/images/1.jpg' alt='1' className='w-screen h-60'></img> */}
         <button className='p-4 hover:scale-105 duration-75'>
             <a href='https://website-nmf2-90uhmdcw6-rajibalishah.vercel.app/' target={"_blank"}
             className="hover:scale-105 duration-75">
@@ -26,7 +34,13 @@ const Portfolio = () => {
 <div>
       <div className=
       'space-x-20 mt-10 px-5 text-white shadow-md shadow-gray-600 h-60 hover:scale-105 duration-75'>
-        <img src='/images/2.jpg' alt='1' className='w-screen h-60'></img>
+        <Image 
+         src="/images/2.jpg"
+         alt="2"
+         height={600}
+         width="400"
+        />
+        {/* <img src='/images/2.jpg' alt='1' className='w-screen h-60'></img> */}
         <button className='p-4 hover:scale-105 duration-75'>
             <a href='https://pricing-l5l5.vercel.app/' target={"_blank"}
             className="hover:scale-105 duration-75">
@@ -43,7 +57,13 @@ const Portfolio = () => {
         <div>
       <div className=
       'space-x-20 px-5 mt-10 text-white shadow-md shadow-gray-600 h-60 hover:scale-105 duration-75'>
-        <img src='/images/3.jpg' alt='1' className='w-screen h-60'></img>
+        <Image 
+         src="/images/3.jpg"
+         alt="3"
+         height={600}
+         width="400"
+        />
+        {/* <img src='/images/3.jpg' alt='1' className='w-screen h-60'></img> */}
         <button className='p-4 hover:scale-105 duration-75'>
             <a href='https://syllabus-ju4x6rs7y-rajibalishah.vercel.app/' target={"_blank"}
             className="hover:scale-105 duration-75">
