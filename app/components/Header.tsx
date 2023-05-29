@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <section className='bg-gray-700 text-white'>
     <div className="flex justify-between items-center">
-      <h1 className="font-otherfont m-7" >Rajib Ali Shah</h1>
+      <h1 className="font-otherfont text-white text-4xl m-7" >Rajib Ali Shah</h1>
       <ul className="m-7 md:flex hidden">
         <li className="m-5 text-2xl font-autograph hover:scale-150 duration-200">Home</li>
         <a className='cursor-pointer' href='#about'>

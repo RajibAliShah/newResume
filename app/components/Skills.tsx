@@ -5,7 +5,7 @@ const Skills = () => {
     <div id='skills'>
       
       <div className=' mt-32 mx-auto'>
-      <h1 className='text-white text-center'>Skills</h1>
+      <h1 className='text-center text-white text-4xl'>Skills</h1>
       </div>
       {/* Row 1 */}
       <div className='m-10 gap-20 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4'>

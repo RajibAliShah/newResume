@@ -7,7 +7,7 @@ const Intro = () => {
     <section className="flex max-w-4xl mx-auto md:flex-row flex-col mt-5">
       {/* left side */}
       <div className="m-5 max-w-lg">
-        <h1 className="text-white">I am a full stack developer</h1>
+        <h1 className=" text-white text-4xl">I am a full stack developer</h1>
         <p className="text-xl text-justify text-bold">
           Passionate and skilled web 3.0 & blockchain developer with experience
           in frontend & backend development. Proven track record in market
