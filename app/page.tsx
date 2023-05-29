@@ -1,6 +1,5 @@
 import React from "react"
 import About from "./components/About"
-import Cards from "./components/Cards"
 import Contact from "./components/Contact"
 import Header from "./components/Header"
 import Intro from "./components/Intro"
@@ -16,7 +15,6 @@ export default function Home() {
   <Header />
   <Intro />
   <About />
-  
   <Portfolio />
   <Skills />
   <Contact />
