@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div id="about" className="text-center leading-8">
-      <h1 className="text-white">About Me</h1>
+      <h1 className="text-center text-white text-4xl">About Me</h1>
       <div className="text-justify text-xl px-5 text-bold max-w-4xl mx-auto mt-10">
         <p>
           I am a exceptional web 3.0 and blockchain developer with
